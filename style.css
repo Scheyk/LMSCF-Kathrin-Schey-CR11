@@ -1,0 +1,92 @@
+body {
+	background-image: url("img/body.jpg");
+	/* background-size: cover; */
+}
+
+textarea { 
+    resize: none;
+    overflow: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.self {
+	width: 21em;
+
+}
+
+.welcome {
+	width: 30em;	
+	padding: 5% 5% 8% 5%;	 
+	margin: auto;
+	text-align: center;
+	border-radius: 1%;
+	background-image: url("img/schild.png");
+	background-size: 100% 100%;
+}
+
+.dash {
+	width: 20em;
+	padding: 1%;
+	border-radius: 1em;
+	background-image: url("img/back.jpg");
+	background-size: cover;
+}
+
+.ask {
+	width: 30em;
+	margin: auto;
+	text-align: center;
+	padding: 2%;
+	background-image: url("img/back.jpg");
+	background-size: cover;
+}
+
+.back {
+	width: 40em;
+	margin: auto;
+	padding: 2%;
+	border-radius: 1em;
+	background-image: url("img/back.jpg");
+	background-size: cover;
+}
+
+.msg {
+	width: 10em;
+	margin: auto;
+	border-radius: 1em;
+	text-align: center;
+	padding: 2%;
+	font-size: 3em;
+	background-image: url("img/back.jpg");
+	background-size: cover; 
+}
+
+.btn_y {
+	width: 5em;
+	height: 5em;	
+	background-image: url("img/yes.jpg");
+	background-size: 100% 100%;
+	border-radius: 0.5em;
+}
+
+.btn_n {
+	width: 5em;
+	height: 5em;	
+	background-image: url("img/no.jpg");
+	background-size: 100% 100%;
+	border-radius: 0.5em;
+}
+
+.main {
+	width: 80%;
+  	margin: auto; /* Same as the width of the sidenav */
+  	font-size: 1.3em; /* Increased text to enable scrolling */
+  	padding: 1% 1%;
+}
+
+.crud {
+	padding: 2%;
+}
